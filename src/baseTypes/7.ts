@@ -6,14 +6,14 @@
 enum Week {
   Monday,
   Tuesday,
-  Wednesdat,
+  Wednesday,
   Thursday,
   Friday,
   Saturday,
   Sunday,
 }
 
-function isWeekend(day: number): boolean {
+function isWeekend(day: Week): boolean {
   return (day > 4)
 }
 
