@@ -2,7 +2,7 @@
   Створіть новий тип даних, який підходить для цих двох об'єктів.
 */
 
-interface Page  {
+type Page =  {
   title: string,
   likes: number,
   accounts: string[],
